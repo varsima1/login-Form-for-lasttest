@@ -1,0 +1,96 @@
+.Lcontainer{
+        background: #f0f2f5;
+        height: 700px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr); /* Adjust as needed */
+        grid-template-rows: auto; /* Adjust as needed */
+        justify-items: center;
+        align-items: center;
+        }
+.Lcontainer .h1L{
+    margin: 30px 30px 0px 50px;
+    color:#1877f2;
+    font-size: 5rem;
+
+}
+.Lcontainer .pL{
+    margin: 30px 30px 80px 50px;
+    font-size: 25px;
+}
+.Lright{
+    margin-right: 500px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    padding: 20px 0 28px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    width: 396px;
+}
+#email,#password, #name{
+    background: #FFFFFF ;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    margin: 5px 15px;
+  }
+.Lbutton{
+background-color: #1877f2;
+border: none;
+border-radius: 6px;
+font-size: 20px;
+line-height: 48px;
+padding: 0 16px;
+width: 365px;
+color: #fff;
+margin: 5px 15px;
+cursor: pointer;
+}
+.Lforgot{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 15px;
+  }
+.link-btn{
+    cursor: pointer;
+    color:#fff;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    border: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    border-radius: 5px;
+    margin: 10px 15px 5px;
+    transition: 0.5s;
+}
+.link-btn:hover{
+    background-color: #36a420;
+    border-color: #36a420;}
+.Lline{
+    border: 1px solid rgb(198, 196, 196);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 20px 15px 15px 15px; 
+}

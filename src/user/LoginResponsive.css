@@ -1,0 +1,26 @@
+@media (max-width:1300px){
+    .Lleft{
+        text-align: center;
+        margin-bottom: -100px;
+    }
+    .Lcontainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Lcontainer h1{
+        margin: 10px;
+    }
+    .Lcontainer p{
+        margin:10px;
+    }
+    .Lright{
+        margin:10px;
+        width: 340px;
+    }
+    #email,#password, #name{
+        width: 280px;
+    }
+    .Lbutton{
+        width: 313px;
+    }
+
+}

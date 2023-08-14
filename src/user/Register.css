@@ -1,4 +1,3 @@
-
 .signup {
     position: absolute;
     left: 50%;
@@ -7,11 +6,15 @@
     display: none;
     top: 50%;
     z-index: 222;
-    /* padding: 0 15px; */
     padding-bottom: 18px;
     transform: translate(-50%, -50%);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.same{
+    background-color: #f5f6f7;
+    border-radius: 5px;
 }
 
 .top {
@@ -25,6 +28,7 @@
     font-size: 32px;
     font-weight: bold;
     font-family: sans-serif;
+    transform: translateY(-20px);
 
 }
 
@@ -32,21 +36,8 @@
     color: #606770;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 15px;
-    line-height: 24px;
+    transform: translateY(-40px);
 }
-
-.top img {
-    padding-bottom: 35px;
-    cursor: pointer;
-    width: 25px;
-}
-
-hr {
-    border: 0.1px;
-    background: grey;
-
-}
-
 
 
 .signup_body {
@@ -69,18 +60,26 @@ hr {
     margin: 15px 0;
     font-size: 15px;
 }
+.Rxbutton{
+    height: 24px;
+    width: 24px;
+    background:url(../image/zgulV2zGm8t.png);
+    transform: translateY(-40px);
+    cursor: pointer;
+}
 
 .bottom input {
     padding: 10px;
-    width: 100%;
+    width: 97%;
     margin-bottom: 15px;
     font-size: 15px;
-    border-radius: 8px;
+    background-color: #f5f6f7;
+    border-radius: 5px;
+    
 }
 
 .birthday {
     padding: 0 15px;
-
 }
 
 .birthday select {
@@ -97,9 +96,12 @@ hr {
     justify-content: space-between;
     margin: 5px 0;
 }
+#day,#month,#year{
+    background-color: #fff;
+}
 
 .gender {
-    padding: 0 15px;
+    padding: 5px;
 }
 
 .person {
@@ -137,7 +139,7 @@ hr {
     font-family: sans-serif;
 }
 
-.singin {
+.singup {
     height: 36px;
     width: 194px;
     background-color: #42b72a;
@@ -145,11 +147,6 @@ hr {
     border-radius: 4px;
     color: #fff;
     font-weight: bold;
-    margin: auto;
-    /* position: absolute;
-    left: 50%;
-    transform: translateX(-50%); */
-    margin-left: 118px;
     font-size: 17px;
     cursor: pointer;
 }
@@ -171,4 +168,8 @@ hr {
     z-index: 22;
     opacity: 0.7;
     display: none;
+}
+hr{
+    border-top: none;
+    margin-top: -50px;
 }

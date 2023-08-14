@@ -20,10 +20,10 @@ export default function Register() {
       <div className={`signup ${isFormVisible ? 'show' : ''}`} id="signup">
         <div className="top">
           <div>
-            <h2>Sign Up</h2>
-            <p>it's quick and easy</p>
+            <h2 id='Rh2'>Sign Up</h2>
+            <p id='Rp'>it's quick and easy</p>
           </div>
-          <h1 onClick={hide}>X</h1>
+          <h1 className='Rxbutton' onClick={hide}></h1>
         </div>
         <hr />
         <form action="#" className="signup_form">
@@ -33,7 +33,7 @@ export default function Register() {
               <input type="text" placeholder="Last Name" className="same" />
             </div>
             <div className="bottom">
-              <input type="text" placeholder="Email or Phone Number" />
+              <input type="text" placeholder="Email" />
               <input type="password" placeholder="New Password" />
             </div>
           </div>
@@ -140,9 +140,10 @@ export default function Register() {
               us and can opt out any time.
             </p>
           </div>
-          <button className="singin">Sign Up</button>
+          <button className="singup">Sign Up</button>
         </form>
       </div>
     </div>
   )
 }
+
